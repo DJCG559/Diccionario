@@ -1,0 +1,18 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "LIADO": "estar confundido ",
+            "CHEVERE" : "Algo bueno ",
+            "PARCE" : "Amigo"
+            }
+
+print(meme_dict["LOL"])
+
+USER = input("¿Que palabra deseas consultar?").upper()
+
+if USER in meme_dict.keys():
+    print(meme_dict[USER])
+else:
+    print("la palabra no es regristrada")
+
+    
